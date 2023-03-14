@@ -29,4 +29,4 @@ There are several areas for improvement in this project. One is the implementati
 In conclusion, this project allowed me to apply all the knowledge and skills I gained during my 3 years in university to create a solution that addresses a significant social issue. The project was challenging, but it helped me to develop my programming, project management, and problem-solving skills. I am proud of what I accomplished and the impact it can have on tackling cyberbullying.
 
 
-Link to Demo Demonstration :<a href = 'https://drive.google.com/file/d/1VyH9OfeOdURnqjtO1cFu_v8AoR6y786q/view?usp=sharing'>Click Here</a>
+Link to Demo Demonstration : <a href = 'https://drive.google.com/file/d/1VyH9OfeOdURnqjtO1cFu_v8AoR6y786q/view?usp=sharing'>Click Here</a>
