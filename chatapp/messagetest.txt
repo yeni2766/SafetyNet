@@ -1,0 +1,85 @@
+var message = document.getElementById("messagetab").value;
+					 var offensivewords=new Array(
+    "fuck off","piss off","shit","damn","bitch","dipshit","fuck","faggot","shit","nigger", "fat boy", "kys", "kill yourself", "smd"
+    ); 
+	var regex = new RegExp('\\b(' + offensivewords.join('|') + ')\\b', 'i' );
+					
+					if (messagetab.value.trim() == ''){//this stops the user fromsending empty messages
+					alert("please type a message");
+					return;
+					}else if (regex.test(message)){
+						alert("This kind of language will not be allowed on Safety Net");
+					}else{
+							
+					$.post("sendsmessage.php", {message:messagetab.value.trim(), user: selecteduser, seen:seenmessage}, function(result){
+						
+    $("#chats").html(result);
+	playAudio();
+	var messagetab = document.getElementById("messagetab");
+
+	var messagewrapper = document.getElementById("messagewrapper");
+						messagewrapper.scrollTo(0,messagewrapper.scrollHeight);
+						messagetab.focus();
+					var seenmessage = true;
+			
+					
+});
+					}
+
+
+		<div id = 'contactss1'  class = 'bb' style = 'float:left; margin:20px;' >
+		
+				<div class = 'message'>
+				
+			<div class = 'child1'>	<?php echo  $result['messages'];?>
+			
+			
+			</div>
+					
+					</div>
+					<span style = 'position:relative; left:25px; bottom: 5px;'> <small><?php echo $result['date']; ?></small></span>
+				<div class = 'image1'>
+	<img class="img-thumbnail" style = 'right:120px; border:1px solid black; width:10%;'id = 'image'src = "<?php echo $result1['image']; ?>" >
+	</div>
+
+	<div class = 'para'>
+	<p class ='p' style = 'margin-bottom:-100px; right:120px;'><?php echo $result1['childfname']; ?></p><br>
+
+					</div>
+				<br>
+				
+
+					</div>
+					<?php endforeach; ?>
+					<!-- images!-->
+					
+								  <?php endforeach; ?>
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								      <?php foreach ($row1 as $result2): ?>
+				<div id = 'secondmessage'  class = 'bb' style = 'float:right; margin:10px; position:absolute;' >
+				<div class = 'message'>
+					<div class = 'child'>	<?php echo  $result2['messages'];?>
+			</div>
+					</div>
+			<span style = 'position:relative; left:-50px; bottom: 5px;'> <small><?php echo $result2['date']; ?></small></span>
+				<div class = 'image2'>
+	<img class='img-thumbnail' style = 'left:160px; bottom:30px; width:10%; border:1px solid black; 'id = 'image'src = "<?php echo $result3['image']; ?>" >
+	</div>
+	<div class = 'para1'>
+	<p class ='p' style = ' left:160px; '><?php echo $result3['childfname']; ?></p><br>
+
+					</div>
+					</div>
+				  <?php endforeach; ?>
+				

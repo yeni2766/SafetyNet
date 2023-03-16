@@ -1,0 +1,242 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+<link rel ="stylesheet" href ="dashboard.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id= "wrapper">
+	<div id = "leftside">
+	 <img class="rounded-circle" alt="100x100" width= "35" height= "35" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+       data-holder-rendered="true">
+	   <br>
+	   	   <label for = "radiocontacts"><i class="fa fa-address-book"style="font-size: 25px;" title="Contacts"></i></label>
+	   	   <label for = "radiochats"><i class="fa fa-comments"style="font-size: 25px;" title = "Chats"></i></label>
+
+	  
+	   <label></label>
+	</div>
+	
+	
+	
+	<div id = "rightside">
+			<div id = "header"><h3><img src = "logo.png" class = "logo"   /></h3>
+			
+			 <p class = "username"><small> Hi Yeni!  </small> </p>
+			 
+			</div>
+	<div id = "container">
+
+	<div id ="contacts">
+	
+	<div style = "text-align:center;" class = 'hh'>
+	<img class="rounded-circle" src = "model.jpg" />
+	<p>Kylie</p>
+	</div><br>
+	
+	<div style = "text-align:center;" class = 'hh'>
+	<img class="rounded-circle" src = "modelman.jpg" />
+	<p>Thomas</p>
+	</div>
+	
+	
+	</div>
+	<input type ="radio" id ="radiochats" name="radio"style = "display:none;">
+		<input type ="radio" id ="radiocontacts" name="radio" style = "display:none;">
+
+	<div id ="chats"></div>
+	
+	
+	</div>
+	
+	</div>
+	
+	
+	
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<style>
+label .fa fa-address-book{
+color:white;
+padding-top:10px;
+}
+.content{
+position:r
+
+
+}
+.col-md-3{
+background-color:blue;
+width:200px;
+height:300px;
+border-bottom:1px solid black;
+}
+.col-md-9{
+background-color:blue;
+width:200px;
+height:300px;
+border-bottom:1px solid black;
+}
+
+.row{
+position:relative;
+left:300px;
+top:300px;
+display:block;
+
+
+}
+body{
+
+
+background-size:cover;
+background-position:center center;
+}
+
+.chatbox{
+width:90%;
+height:90%;
+margin-top:20px;
+background-color:white;
+
+}
+
+
+#wrapper{
+	max-width:1450px;
+	min-height:625px;
+	box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	display:flex;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+
+html{
+overflow-x:hidden;
+
+}
+
+
+	#chats{
+			transition:all 2s ease;
+		flex:2;
+		background-color:#FBFBFB;
+		min-height:565px;
+		border-left: 1px solid grey;
+	}
+	
+#leftside{
+	padding-top:30px;
+	flex:1;
+	border-right: 1px solid grey;
+	min-height:500px;
+	background-color:black;
+	text-align:center;
+}
+#rightside{
+	
+	flex:25;
+	text-align:center;
+	min-height:500px;
+
+}
+
+	#header{
+		height:60px;
+		background-color:#FAD02C;
+		color:white;
+			font-family:quicksand;
+			font-weight:BOLD;
+			padding:20px;
+		border-bottom:1px solid grey;
+		font-size:20px;
+	}
+
+
+
+
+h3{
+position:relative; right:570px;
+font-weight:bold;
+font-family:quicksand;
+
+}
+
+
+
+.logo{
+position:relative; left:30px;
+bottom:25px;
+
+}
+		#contacts{
+		
+		flex:1;
+		background-color:#F4F0F0;
+		
+			min-height:450px;
+			transition:all 2s ease;
+			max-height:100%;
+			position:relative;
+			vertical-align:top;
+		
+	}
+	
+	
+	
+	.username{
+	position:relative;
+	left:-400px;
+	bottom:75px;
+	font-size:20px;
+	
+}
+	
+	
+	#contacts img {
+	width:15%;
+	position:relative;
+	right:120px;
+	top:30px;
+	}
+	 #contacts p {
+	 display:inline-block;
+	 position:relative;
+right:90px;
+	top:30px;
+	font-weight:bold;
+	 }
+	.hh {
+		vertical-align:top;
+		display:inline-block;
+		border-bottom:1px solid #A8A8A8;
+		height:100px;
+	}
+	
+</style>

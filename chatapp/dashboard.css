@@ -1,0 +1,104 @@
+html,body
+{
+
+}
+
+*{
+	margin :0;
+	padding:0;
+	overflow-y:visible;
+	
+}
+
+label .fa-address-book{
+color:white;
+
+}
+
+label .fa-comments{
+color:white;
+
+}
+label{
+	
+	display:block;
+	position:relative;
+	top:50px;
+	margin-top:20px;
+	cursor:pointer;
+	transition:all 1s ease;
+}
+.username{
+	position:relative;
+	left:470px;
+	bottom:20px;
+	font-size:20px;
+	
+}
+#wrapper{
+	max-width:1100px;
+	min-height:500px;
+	box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	display:flex;
+	margin-top:70px;
+	margin-left:120px;
+}
+	#header{
+		height:90px;
+		background-color:#FAD02C;
+		color:white;
+			font-family:quicksand;
+			font-weight:BOLD;
+			padding:20px;
+		border-bottom:1px solid grey;
+		font-size:20px;
+		position:relative;
+	}
+	#contacts{
+		
+		flex:19;
+		background-color:#F7E7CE;
+			min-height:430px;
+			transition:all 2s ease;
+	}
+	#container{
+		
+		
+		display:flex;
+	}
+
+#radiocontacts:checked ~ #chats{
+	
+
+	
+	flex:3;
+}
+	#chats{
+			transition:all 2s ease;
+		flex:2;
+		background-color:#FBFBFB;
+		min-height:470px;
+		border-left: 1px solid grey;
+	}
+	
+	#leftside img{
+		border:solid thin white;
+		
+		
+		
+	}
+#leftside{
+	padding-top:30px;
+	flex:1;
+	border-right: 1px solid grey;
+	min-height:500px;
+	background-color:black;
+	text-align:center;
+}
+#rightside{
+	
+	flex:16;
+	text-align:center;
+	min-height:500px;
+
+}
