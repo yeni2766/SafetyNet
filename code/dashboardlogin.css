@@ -1,0 +1,123 @@
+html,body{
+	overflow-x:hidden;
+	background-image:url("4.png");
+color:black;
+	background-size: cover;
+}
+h1{
+	padding:70px 0px 0px 75px;
+	
+	font-family:quicksand;
+	font-weight:bold;
+}
+*{
+	margin :0;
+	padding:0;
+	
+	
+}
+.errormessages{
+	color:red;
+	display:block;
+	font-family:quicksand;
+	font-weight:bold;
+}
+.form{
+	
+	
+	
+	position:relative;
+	bottom:10px;
+}
+.submit {
+  background-color: purple;
+  display:block;
+  color: white;
+  padding: 1rem;
+  text-transform:uppercase;
+  margin-left: 40px;
+
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+ font-family:quicksand;
+ letter-spacing:0.5px;
+ position:relative;
+ right:40px;
+
+}
+
+.formrow h2{
+	
+	
+	
+}
+
+.col-md-5{
+background-color:white;
+height:500px;
+box-shadow: 1.8px 3.5px 3.5px hsl(0deg 0% 0% / 0.45);
+border-right:1px solid black;
+
+padding:70px;
+}
+
+.row {
+	margin:100px 100px 100px 100px;
+	display:inline;
+ padding:0px 50px 0px 50px;
+
+}
+.col-md-7{
+	background-color:#F4F0F0;
+box-shadow: 1.8px 3.5px 3.5px hsl(0deg 0% 0% / 0.45);
+
+		
+}
+.formrow form{
+	padding:30px;
+	margin-left:50px;
+	
+	
+	
+}
+input[type=text], input[type=password], input[type=number] {
+	display:block;
+    width: 60%;
+	background:transparent;
+  margin: 0px 0;
+  border:none;
+  box-sizing: border-box;
+
+
+border-bottom:1px solid black;
+  font-family: quicksand;
+  font-size:1rem;
+
+}
+::placeholder { 
+  color: #000000;
+  opacity: 1; 
+}
+.submit:hover{
+	color: white;
+	border-radius: 50px;
+	border-color: white;
+	transition: all 0.7s ease 0s;
+	
+	border:1px solid white;
+}
+	
+	
+}
+col{
+	
+	
+	
+	height
+}
+.img-fluid{
+
+	
+}

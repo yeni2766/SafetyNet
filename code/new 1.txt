@@ -1,0 +1,21 @@
+$sql = "UPDATE notifications set accepted = 1 where notifications_sentto = '$requestsentto' and accepted = 'N/A' ";
+
+$notificationsentfrom = "select notifications_sentfrom from notifications where notifications_sentto = '$requestsentto' AND accepted = 1 ";
+
+
+
+$sql1 = "INSERT into notifications (notifications_sentfrom, notifications_sentto, accepted) VALUES ('$requestsentto', '$notificationsentfrom', 1)";
+
+
+if(isset($_POST['accept'])){
+	
+	
+	if (mysqli_query($conn, $sql) && mysqli_query($conn, $sql1)) {
+  echo "Record updated successfully";
+} else {
+  echo "Error updating record: " . $conn->error;
+}
+
+	
+	
+$conn->close();

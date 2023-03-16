@@ -1,0 +1,227 @@
+*{
+	margin:0;
+	padding:0;
+		
+	
+	
+}\
+.input-error{
+	box-shadow:5px 5px 5px 5px;
+	border:1px solid green;
+	
+}
+#name{
+	visibility:hidden;
+	
+	
+}
+.tab {
+  display: none;
+}
+.errormessages{
+	color:red;
+	display:block;
+	font-family:quicksand;
+	font-weight:bold;
+}
+body{
+	overflow-x:hidden;
+
+color:black;
+	background-size: cover;
+}
+
+
+
+.secondform{
+	
+	
+	
+	
+}
+
+#formscreen1{
+position:relative;
+left:40px;
+}
+
+.col-md-6 form{
+	
+		transition:0.5s ease in;
+	
+	
+}
+form{
+	position:relative;
+	top:130px;
+	
+	
+	
+}
+\
+
+
+
+#errormessages{
+	height:30px;
+max-width:250px;
+	border:1px solid red;
+	background-color:white;
+	
+	
+	
+	
+}
+#errormessages li{
+	
+	  list-style-type: none;
+
+}
+.col-md-8{
+	
+	height:780px;
+
+
+	background-color:white;
+	text-align:center;
+	transition:0.5s ease in;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.row {
+	padding: 120px 0px 0px 300px;
+	display:inline;
+	
+}
+#formscreen2{
+	
+	
+	margin-left:500px;
+	position:relative;
+	bottom:680px;
+}
+
+
+.formintro h3{
+margin-top:20px;
+margin-right:25px;
+font-family:quicksand;
+position:relative;
+top:40px;
+}
+	
+.formintro2 h3{
+margin-top:20px;
+margin-right:25px;
+font-family:quicksand;
+}
+
+
+
+.progressbar .progressbars1{
+	position:relative;
+left:20px;
+
+text-align:center;
+color:black;
+}
+.progressbar .progressbars3{
+	position:relative;
+left:5px;
+bottom:60px;
+text-align:center;
+color:black;
+}
+#aa {
+	
+
+}
+.progressbar .progressbars4{
+	position:relative;
+left:236px;
+bottom:60px;
+text-align:center;
+color:black;
+}
+
+.progressbar .progressbars2{
+	position:relative;
+left:250px;
+
+text-align:center;
+color:black;
+}
+
+
+.form-group {
+position:relative;
+bottom:70px;
+	
+}
+.form-group label{
+display:flex;
+	
+}
+.form-group input[type=email], input[type=password]{
+	display:block;
+	
+	
+	
+}
+
+
+
+input {
+  display: inline-block;
+
+}
+
+
+.row{
+	
+	display:inline;
+}
+
+.progressbar{
+	height:60px;
+	
+
+	display:flex;
+	align-items:center;
+	
+	position:relative;
+	right:15px;
+	
+}
+
+#progresscolour{
+	position:relative;
+	height:60px;
+	width:200px;
+	background-color:#D0D0D0;
+	right:15px;
+	
+	
+}
+
+
+#form2{
+	position:relative;
+	bottom:60px;
+	right:10px;
+	
+	
+}
+
+
+#progresscolour1{
+	position:relative;
+	height:60px;
+	width:200px;
+	background-color:#D0D0D0;
+	left:204px;
+
+	
+	
+}
